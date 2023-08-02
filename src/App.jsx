@@ -3,19 +3,20 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Events from "./pages/Events";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer.jsx";
+import "./App.css";
+// import Navbar from "./components/Navbar";
+// import Footer from "./components/Footer.jsx";
 
 function App() {
 	return (
 		<>
-			<Navbar />
+			{/*<Navbar />*/}
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/events' element={<Events />} />
 			</Routes>
-			<Footer />
+			{/* <Footer /> */}
 		</>
 	);
 }
