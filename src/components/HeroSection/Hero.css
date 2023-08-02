@@ -10,7 +10,7 @@
     flex-direction: row;
 }
 .hero-image{
-    height: 70vh;
+    height: 80vh;
     width: 50%;
     object-fit: contain;
 }
