@@ -2,10 +2,10 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Events from "./pages/Events";
-import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
-import "./App.css";
+import Events from "./components/Events Section/Events";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer.jsx";
+
 
 function App() {
   return (

@@ -1,0 +1,91 @@
+.main-container {
+    background-color: black;
+    border: 0px none;
+    height: 572px;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .event-section {
+    height: 532px;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 1226px;
+  }
+  
+  .event-text {
+    height: 415px;
+    left: 90px;
+    position: absolute;
+    top: 61px;
+    width: 436px;
+  }
+  
+  .main-heading {
+    -webkit-background-clip: text !important;
+    background: linear-gradient(
+      180deg,
+      rgb(184.52, 108.79, 244.02) 0%,
+      rgb(221.71, 132.1, 218.12) 35.42%,
+      rgba(155.21, 153.21, 253.58, 0.9) 58.85%,
+      rgb(90.61, 187.01, 217.46) 100%
+    );
+    background-clip: text;
+    color: transparent;
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.72px;
+    line-height: normal;
+    position: absolute;
+    top: 267px;
+    width: 428px;
+  }
+  
+  .events-title {
+    color: rgb(180, 176, 176);
+    font-family: "Poppins", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 8px;
+    letter-spacing: 0.72px;
+    line-height: 33.7px;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .popular-events-image {
+    height: 69px;
+    left: 10px;
+    position: absolute;
+    top: 53px;
+    width: 218px;
+  }
+  
+  .description-text {
+    color: white;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.7;
+    position: absolute;
+    top: 137px;
+    width: 383px;
+  }
+  
+  .event-images {
+    height: 440px;
+    left: 505px;
+    position: absolute;
+    top: 40px;
+    width: 689px;
+  }
+  

@@ -1,7 +1,12 @@
 import React from "react";
-import "./Home.css";
+import Events from "../components/Events Section/Events";
+
 function Home() {
-  return <div className="home">Home</div>;
+	return(
+		<div>
+			<Events />
+		</div>
+	);
 }
 
 export default Home;
