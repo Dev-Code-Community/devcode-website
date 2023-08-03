@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Events from "./pages/Events";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer.jsx";
+import About from "./pages/About";
 
 function App() {
 	return (
