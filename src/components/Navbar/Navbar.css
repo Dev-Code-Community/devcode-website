@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.header {
+  font-size: 1.3rem;
+  color: #bfbebe;
+  font-family: Roboto, sans-serif, monospace;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+  color: #bfbebe;
+}
+
+.text-special {
+  text-transform: uppercase;
+  color: #c490ea;
+  font-weight: 700;
+}
+
+.header-upper {
+  background-color: black;
+  min-height: 5vh;
+  text-align: center;
+  padding-top: 15px;
+  color: #fefffe;
+}
+
+.header-upper-text {
+  margin-bottom: 10px;
+  height: 14px;
+}
+
+.icon-star {
+  font-size: 1.8em;
+  margin: 5px 5px 10px 5px;
+}
+
+.header-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.95);
+  min-height: 13vh;
+}
+
+.logo-container {
+  margin-left: 7%;
+}
+
+#logo {
+  max-height: 8vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin-left: 10%;
+  gap: 4rem;
+}
+
+#home-link a {
+  color: white;
+  margin-right: 40px;
+}
+
+.nav-button {
+  margin-right: 7%;
+}
+
+.nav-button button {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px 50px;
+  cursor: pointer;
+  background: hsla(211, 65%, 66%, 1);
+
+  background: linear-gradient(
+    0deg,
+    hsla(211, 65%, 66%, 1) 0%,
+    hsla(277, 78%, 70%, 1) 55%
+  );
+
+  background: -moz-linear-gradient(
+    0deg,
+    hsla(211, 65%, 66%, 1) 0%,
+    hsla(277, 78%, 70%, 1) 55%
+  );
+
+  background: -webkit-linear-gradient(
+    0deg,
+    hsla(211, 65%, 66%, 1) 0%,
+    hsla(277, 78%, 70%, 1) 55%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#70a7e1", endColorstr="#c075ee", GradientType=1 );
+  color: black;
+  font-weight: 600;
+  word-spacing: 0.1rem;
+  letter-spacing: 0;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.nav-button button:active {
+  scale: calc(0.95);
+  box-shadow: 2px 2px white;
+}
