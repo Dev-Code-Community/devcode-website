@@ -1,0 +1,22 @@
+.hero-section{
+    background: #000000;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    color:white;
+}
+.hero-container{
+    display: flex;
+    flex-direction: row;
+}
+.hero-image{
+    height: 80vh;
+    width: 50%;
+    object-fit: contain;
+}
+.hero-image img{
+    height: 100%;
+    width: auto;
+}
+
+
