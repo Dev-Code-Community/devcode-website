@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Playball';
+    src: url('../../fonts/Playball-Regular.ttf') format('truetype'),
+         url('./fonts/Playball-Regular.woff') format('woff'),
+         url('./fonts/Playball-Regular.woff2') format('woff2');
+  }
+
+.hero-section{
+    background: #000000;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    color:white;
+}
+.hero-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hero-image{
+    height: 80vh;
+    width: 50%;
+    object-fit: contain;
+}
+.hero-image img{
+    height: 100%;
+    width: auto;
+}
+.hero-text{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 32.33rem;
+    margin-top:4rem;
+    margin-left: 6.5rem;
+}
+
+.hero-text .dev-code {
+    font-size: 3.125rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: "Playball";
+    background: linear-gradient(90deg, #f0ebebb6, #B96DF4 100%, #DE84DA 100%, #8c8aff 90%, #5BBBD9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}    
+
+.hero-text .dev-community{
+    font-size: 3rem;
+    font-weight: 500;
+    margin:0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero-text .dev-description{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width:23.4rem;
+    margin:0;
+    padding: 0;
+    font-family: "poppins";
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+.hero-text .dev-btn {
+    font-size: 1rem;
+    font-weight: 700;
+    width: 16.5rem;
+    height: 3rem;
+    border-radius: 2.8rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: linear-gradient(
+        90deg,
+        #b96df4 10%,
+        #de84da 100%,
+        #9b99fe 100%,
+        #5bbbd9 90%,
+        hsl(194, 62%, 60%) 100%
+    );
+    cursor: pointer;
+}
+.hero-btns{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin-top: 1.5rem;
+    top: 3rem;
+    right: 5rem;
+}
+.social-btn{
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(
+        90deg,
+        #b96df4 0%,
+        #de84da 100%,
+        #9b99fe 100%,
+        #5bbbd9 90%,
+        #5bbbd9 100%
+    );
+    box-shadow: 0 4px 4px 0 rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.social-btn img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0.5rem;
+}

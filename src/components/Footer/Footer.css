@@ -87,12 +87,14 @@
 }
 
 .footer-form-container {
+  position: absolute;
   min-height: 50vh;
   min-width: 450px;
   background-color: #ffffff;
   border-radius: 10px;
   z-index: 999;
   opacity: 0.95;
+  right: 0;
 }
 
 .form-input-wrapper {
