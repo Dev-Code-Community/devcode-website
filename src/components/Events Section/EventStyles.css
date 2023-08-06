@@ -27,10 +27,10 @@
     -webkit-background-clip: text !important;
     background: linear-gradient(
       45deg,
-      #c1baff, /* Bright pink */
-      #00f7ff, /* Bright cyan */
-      #7cacff, /* Bright magenta */
-      #9a5aed  /* Bright green */
+      #c1baff,
+      #00f7ff, 
+      #7cacff,
+      #9a5aed  
     );
     background-clip: text;
     color: transparent;
