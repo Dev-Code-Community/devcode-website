@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
 .header {
+  max-width: 100%;
   font-size: 1.3rem;
   color: #bfbebe;
   font-family: Roboto, sans-serif, monospace;
@@ -69,7 +70,7 @@ a {
 }
 
 .nav-button button {
-  width: 200px;
+  width: 179.7px;
   height: 50px;
   border-radius: 50px 50px;
   cursor: pointer;
@@ -103,6 +104,6 @@ a {
 }
 
 .nav-button button:active {
-  scale: calc(0.95);
+  scale: calc(0.);
   box-shadow: 2px 2px white;
 }

@@ -1,29 +1,47 @@
 import React from "react";
 import "./Eventstyles.css";
 
-export const Events = () => {
+const Events = () => {
+  const mainHeadingText = "Events";
+  const descriptionText =
+    "Dolor sit amet, consectetur adipisicing elit. Aliquid autem beatae consectetur cumque dolores dolorum enim inventore iure minus nostrum nulla numquam quam quia quod, reprehenderit.";
+  const bottomText =
+    "Building a thriving community of developers, by developers, for developers";
+
   return (
     <div className="main-container">
+
       <div className="event-section">
-        <div className="event-text">
-          <h1 className="main-heading">Building a thriving community of developers, by developers, for developers</h1>
-          <div className="events-title">Events</div>
-          <img
-            className="popular-events-image"
-            alt="Most popular events"
-            src="https://generation-sessions.s3.amazonaws.com/024340b113e5ede134ec6688509c153c/img/most-popular-events@2x.png"
-          />
-          <p className="description-text">
-            Dolor sit amet, consectetur adipisicing elit. Aliquid autem beatae consectetur cumque dolores dolorum enim
-            inventore iure minus nostrum nulla numquam quam quia quod, reprehenderit.
-          </p>
+
+        <div className="event-content">
+
+          <div className="event-heading"> {mainHeadingText} </div>
+
+          <div className="popular-section">
+            <div className="popular-text child">Most popular</div>
+            <div className="event-heading-special chlid"> {mainHeadingText} </div>
+          </div>
+
+          <div>
+            <p className="event-description"> {descriptionText} </p>
+          </div>
+
+          <div>
+            <h1 className="bottom-text"> {bottomText} </h1>
+          </div>
+
         </div>
-        <img
-          className="event-images"
-          alt="Event images"
-          src="https://generation-sessions.s3.amazonaws.com/024340b113e5ede134ec6688509c153c/img/event-images.png"
-        />
+
+        <div>
+          <img
+            className="event-image"
+            alt="Event images"
+            src="src/assets/event.png"
+          />
+        </div>
+
       </div>
+
     </div>
   );
 };
