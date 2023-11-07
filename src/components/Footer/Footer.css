@@ -1,211 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-.footer {
-  background-color: black;
-  width: 100%;
-  color: #fefefe;
-  min-height: 95vh;
-  position: relative;
-  font-size: 1.3rem;
-  color: #bfbebedb;
-  font-family: Roboto, sans-serif, monospace;
+.ft__footer_container {
+	width: 100%;
+	margin-top: 20px;
+	bottom: 0;
 }
 
-.footer-content-container {
-  display: flex;
-  gap: 70px;
-  width: 80%;
-  justify-content: center;
-  position: absolute;
-  top: 80px;
-  left: 12%;
+.ft__footer {
+	color: white;
+	padding: 20px;
+	border-top: 1px solid rgb(88, 85, 85);
+	border-radius: 10px;
+	margin: 1.6rem 2rem;
+	padding: auto 2rem;
+	background-color: rgb(16, 19, 21);
 }
 
-.title-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  color: #ffffff;
-  font-size: 2rem;
+.ft__row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.ft__upper {
+	margin-bottom: 20px;
+}
+.ft__column {
+	padding: 10px;
+}
+.ft__info_text {
+	max-width: 350px;
 }
 
-.block-sm {
-  width: 8px;
-  height: 8px;
-  background: hsla(211, 65%, 66%, 1);
-
-  background: linear-gradient(
-    0deg,
-    hsla(211, 65%, 66%, 1) 0%,
-    hsla(277, 78%, 70%, 1) 55%
-  );
-
-  background: -moz-linear-gradient(
-    0deg,
-    hsla(211, 65%, 66%, 1) 0%,
-    hsla(277, 78%, 70%, 1) 55%
-  );
-
-  background: -webkit-linear-gradient(
-    0deg,
-    hsla(211, 65%, 66%, 1) 0%,
-    hsla(277, 78%, 70%, 1) 55%
-  );
+.ft__ul {
+	list-style-type: none;
+	padding: 0;
 }
 
-.block-lg {
-  width: 45px;
-  height: 8px;
-  background: hsla(211, 65%, 66%, 1);
-
-  background: linear-gradient(
-    0deg,
-    hsla(211, 65%, 66%, 1) 0%,
-    hsla(277, 78%, 70%, 1) 55%
-  );
-
-  background: -moz-linear-gradient(
-    0deg,
-    hsla(211, 65%, 66%, 1) 0%,
-    hsla(277, 78%, 70%, 1) 55%
-  );
-
-  background: -webkit-linear-gradient(
-    0deg,
-    hsla(211, 65%, 66%, 1) 0%,
-    hsla(277, 78%, 70%, 1) 55%
-  );
+.ft__ul .ft__li {
+	margin-bottom: 10px;
 }
 
-.text-wrapper {
-  margin-top: 20px;
-  width: 450px;
+.ft__social-icons {
+	text-align: center;
 }
 
-.text-about {
-  width: 340px;
-}
-
-.footer-form-container {
-  position: absolute;
-  min-height: 50vh;
-  min-width: 450px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  z-index: 999;
-  opacity: 0.95;
-  right: 0;
-}
-
-.form-input-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  justify-content: space-around;
-  align-items: center;
-  padding: 40px;
-  padding-bottom: 0px;
-}
-
-.form-input-wrapper input {
-  width: 170px;
-  height: 40px;
-  border-radius: 2px;
-  border: 1px gray solid;
-  padding: 8px;
-  font-size: 1.2rem;
-  color: black;
-  font-family: Roboto, sans-serif, monospace;
-}
-
-.form-input-wrapper input:focus {
-  outline: none;
-}
-
-.footer-form textarea {
-  width: 80%;
-  margin-top: 20px;
-  margin-left: 40px;
-  padding: 10px;
-  outline: none;
-  height: max-content;
-  font-size: 1.2rem;
-  color: black;
-  font-family: Roboto, sans-serif, monospace;
-}
-
-.footer-form button {
-  padding: 10px 30px;
-  border-radius: 50px;
-  cursor: pointer;
-  outline: none;
-  margin: 20px 0;
-  margin-left: 10%;
-  background: hsla(211, 65%, 66%, 1);
-
-  background: linear-gradient(
-    0deg,
-    hsla(211, 65%, 66%, 1) 0%,
-    hsla(277, 78%, 70%, 1) 55%
-  );
-
-  background: -moz-linear-gradient(
-    0deg,
-    hsla(211, 65%, 66%, 1) 0%,
-    hsla(277, 78%, 70%, 1) 55%
-  );
-
-  background: -webkit-linear-gradient(
-    0deg,
-    hsla(211, 65%, 66%, 1) 0%,
-    hsla(277, 78%, 70%, 1) 55%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#70a7e1", endColorstr="#c075ee", GradientType=1 );
-  color: white;
-  font-weight: 400;
-  word-spacing: 0.1rem;
-  letter-spacing: 0;
-  border: none;
-  font-size: 1.5rem;
-}
-
-.footer-form button:active {
-  scale: calc(0.95);
-  box-shadow: 2px 2px black;
-}
-
-.footer-img-container {
-  position: absolute;
-  bottom: 10vh;
-  width: 100%;
-  overflow: hidden;
-}
-
-#footer-img {
-  width: 1600px;
-}
-
-.footer-credits {
-  display: flex;
-  position: absolute;
-  bottom: 2vh;
-  width: 100%;
-  min-height: 10vh;
-  background-color: #151415;
-  align-items: center;
-}
-
-.designer {
-  margin-left: 5%;
-}
-
-.copyright {
-  margin-left: 20%;
-}
-
-.text-special {
-  text-transform: capitalize;
-  color: #c490ea;
-  font-weight: 400;
+.ft__icon {
+	font-size: 2em;
+	margin: 0 10px;
 }

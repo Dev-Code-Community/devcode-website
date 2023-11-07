@@ -1,11 +1,15 @@
 import React from "react";
-import Events from "../components/Events Section/Events";
 import Hero from "../components/Hero/Hero";
+import AboutUs from "../components/About_section/AboutUs";
+import Keybenifit from "../components/Keybenifit_section/Keybenifit";
+import Events from "../components/Events_section/Events";
 
 function Home() {
-	return(
-		<div>
-			<Hero/>
+	return (
+		<div className='home-container'>
+			<Hero />
+			<AboutUs />
+			<Keybenifit />
 			<Events />
 		</div>
 	);

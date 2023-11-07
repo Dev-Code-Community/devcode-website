@@ -1,28 +1,36 @@
-import React from 'react'
-import './Hero.css'
-const Hero = () => {
-    return (
-      <div className='hero-section'>
-          <div className='hero-container'>
-              <div className='hero-text' >
-                  <p className='dev-code'>&lt;Dev Code&gt;</p>
-                  <p className='dev-community'>Join the Community of Developers</p>
-                  <p className='dev-description'>Collaborate, Learn, Innovate, Participate in events, contests, and challenges to win prizes and recognition</p>
-                  <button className='dev-btn'>Join Our Community</button>
-              </div>
-              <div className='hero-image' >
-                <img src="src\assets\hero.png" alt='hero'></img>
-              </div>
-          </div>
-          <div className='hero-btns'>
-                <div className='social-btn'><img src='https://cdn-icons-png.flaticon.com/512/59/59439.png'></img></div>
-                <div className='social-btn'><img src='https://img.freepik.com/free-icon/twitter_318-788985.jpg'></img></div>
-                <div className='social-btn'><img src='https://cdn-icons-png.flaticon.com/512/49/49068.png'></img></div>
-                <div className='social-btn'><img src='https://www.iconpacks.net/icons/2/free-instagram-logo-icon-3286-thumb.png'></img></div>
-                <div className='social-btn'><img src='https://www.transparentpng.com/thumb/youtube-logo/hd-clipart-youtube-logo-19.png'></img></div>
-          </div>
-      </div>
-    )
-  }
+import React from "react";
+import "./Hero.css";
+import { motion } from "framer-motion";
+import HERO_IMAGE from "../../assets/hero-removebg.png";
+import DEVCODE from "../../assets/DevCode.png";
 
-export default Hero
+const Hero = () => {
+	return (
+		<motion.div
+			initial={{ opacity: 0, translateX: "-100vw" }}
+			animate={{ opacity: 1, translateX: "0" }}
+			transition={{ duration: 0.5, ease: "easeOut" }}
+			className='hero_container'>
+			<div className='hero_left'>
+				<div className='hero_top_image'>
+					<img src={DEVCODE} alt='hero' className='hero_devcode' />
+				</div>
+				<div className='hero_desc'>
+					<h1>Join the Community of Developers</h1>
+					<p>
+						Collaborate, Learn, Innovate, Participate in events, contests, and
+						challenges to win prizes and recognition
+					</p>
+				</div>
+				<div className='hero_join'>
+					<button>Join Our Community</button>
+				</div>
+			</div>
+			<div className='hero_right'>
+				<img src={HERO_IMAGE} alt='hero' className='hero_image' />
+			</div>
+		</motion.div>
+	);
+};
+
+export default Hero;

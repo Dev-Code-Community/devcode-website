@@ -1,0 +1,49 @@
+.aboutus_container {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+.aboutus_right {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.aboutus_label .text-wrapper {
+	-webkit-background-clip: text !important;
+	-webkit-text-fill-color: transparent;
+	background: linear-gradient(
+		180deg,
+		rgb(184.52, 108.79, 244.02) 0%,
+		rgb(221.71, 132.1, 218.12) 35.42%,
+		rgba(155.21, 153.21, 253.58, 0.9) 58.85%,
+		rgb(90.61, 187.01, 217.46) 100%
+	);
+	background-clip: text;
+	color: transparent;
+	font-family: "Poppins-Bold", Helvetica;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 0;
+	line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+	.aboutus_container {
+		flex-direction: column-reverse;
+		margin-top: 40px;
+		padding: 0 10px;
+		gap: 20px;
+	}
+
+	.aboutus_right {
+		width: 100%;
+	}
+
+	.aboutus_label .text-wrapper {
+		font-size: 24px;
+	}
+}

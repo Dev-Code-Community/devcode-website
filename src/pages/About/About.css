@@ -1,0 +1,27 @@
+.about-container {
+	padding: 100px 20px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.more-about-us {
+	margin-bottom: 20px;
+}
+
+.about_description {
+	padding: 0 40px;
+}
+
+.team-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+}
+
+@media (max-width: 768px) {
+	.team-grid {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+}

@@ -1,0 +1,92 @@
+.m__backdrop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: #000000e1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow-y: hidden;
+}
+
+.m__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	z-index: 1000;
+}
+
+.m__social-media {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: linear-gradient(10deg, #ffaa00, #eb6e16);
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+}
+
+.m__buttons {
+	display: flex;
+}
+
+.m__buttons a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+.m__buttons a.m__facebook {
+	background-color: #3b5998;
+}
+
+.m__buttons a.m__twitter {
+	background-color: #1da1f2;
+}
+
+.m__buttons a.m__instagram {
+	background-color: #e1306c;
+}
+
+.m__buttons a.m__youtube {
+	background-color: #ff0000;
+}
+
+.m__buttons a svg {
+	color: white;
+	font-size: 24px;
+}
+
+.m__text {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+
+.m__close {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	color: black;
+	background: linear-gradient(
+		180deg,
+		rgb(184.52, 108.79, 244.02) 0%,
+		rgb(221.71, 132.1, 218.12) 35.42%,
+		rgba(155.21, 153.21, 253.58, 0.9) 58.85%,
+		rgb(90.61, 187.01, 217.46) 100%
+	);
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+@media (max-width: 600px) {
+	.m__buttons {
+		flex-direction: column;
+	}
+}
